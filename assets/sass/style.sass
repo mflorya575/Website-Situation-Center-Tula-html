@@ -36,15 +36,89 @@ $color-red: #f82e50cf
     margin: 0 auto
     /* z-index: 2 */
 
-/* .main-section
-    min-height: 850px
-    background: #0f2027
-    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364)
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364) */
+.header
+    margin-top: 52px
+    display: flex
+    align-items: center
+    &-link_margin1
+        margin-right: 208px
+    &-link_margin2
+        margin-right: 208px
+    &-link_margin3
+        margin-right: 99px
+    &-link_margin4
+        margin-left: 99px
+    &-link_margin5
+        margin-left: 162px
+    &-link_margin6
+        margin-left: 162px
+    &-block1-ul1
+        display: flex
+    &-block3-ul2
+        display: flex
+    &-block1-link
+        color: rgb(245, 235, 233)
+        font-size: 20px
+        font-weight: 400
+        line-height: 24px
+    &-block1-link_custom
+        color: rgb(219, 174, 139)
+        font-size: 20px
+        font-weight: 400
+        line-height: 24px
+        white-space: nowrap
+        &:hover
+            color: rgb(232, 195, 166)
 
+a
+  overflow: hidden
+  position: relative
+  display: inline-block
+  text-decoration: none
 
+a::before
+a::after 
+    content: ''
+    position: absolute
+    width: 100%
+    left: 0
 
+a::before 
+  background-color: rgb(235, 206, 200)
+  height: 2px
+  bottom: 0
+  transform-origin: 100% 50%
+  transform: scaleX(0)
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1)
 
+a::after 
+  content: attr(data-replace)
+  height: 100%
+  top: 0
+  transform-origin: 100% 50%
+  transform: translate3d(200%, 0, 0)
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1)
+  color: rgb(245, 235, 233)
 
+a:hover::before 
+  transform-origin: 0% 50%
+  transform: scaleX(1)
+
+a:hover::after 
+  transform: translate3d(0, 0, 0)
+
+a span 
+    display: inline-block
+    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1)
+
+a:hover span 
+  transform: translate3d(-200%, 0, 0)
+
+.main-section
+    min-height: 1020px
+    background: url(./assets/images/bg-main.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
 
 

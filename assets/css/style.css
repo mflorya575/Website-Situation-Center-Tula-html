@@ -469,10 +469,141 @@ body {
   /* z-index: 2 */
 }
 
-/* .main-section
-    min-height: 850px
-    background: #0f2027
-    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364)
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364) */
+/* line 39, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header {
+  margin-top: 52px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 43, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-link_margin1 {
+  margin-right: 208px;
+}
+
+/* line 45, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-link_margin2 {
+  margin-right: 208px;
+}
+
+/* line 47, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-link_margin3 {
+  margin-right: 99px;
+}
+
+/* line 49, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-link_margin4 {
+  margin-left: 99px;
+}
+
+/* line 51, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-link_margin5 {
+  margin-left: 162px;
+}
+
+/* line 53, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-link_margin6 {
+  margin-left: 162px;
+}
+
+/* line 55, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-block1-ul1 {
+  display: flex;
+}
+
+/* line 57, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-block3-ul2 {
+  display: flex;
+}
+
+/* line 59, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-block1-link {
+  color: #f5ebe9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 64, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-block1-link_custom {
+  color: #dbae8b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+/* line 70, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-block1-link_custom:hover {
+  color: #e8c3a6;
+}
+
+/* line 73, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 80, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+/* line 86, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a::before {
+  background-color: #ebcec8;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* line 94, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  transform-origin: 100% 50%;
+  transform: translate3d(200%, 0, 0);
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  color: #f5ebe9;
+}
+
+/* line 103, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+
+/* line 107, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 110, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a span {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* line 114, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+a:hover span {
+  transform: translate3d(-200%, 0, 0);
+}
+
+/* line 117, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.main-section {
+  min-height: 1020px;
+  background: url(./assets/images/bg-main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /*# sourceMappingURL=style.css.map */
