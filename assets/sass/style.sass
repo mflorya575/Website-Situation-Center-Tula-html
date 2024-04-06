@@ -30,7 +30,8 @@ body
     position: relative
     overflow-x: hidden
 
-$color-red: #f82e50cf
+$button-color-orange: rgb(219, 174, 139)
+$button-border-color-orange: rgb(219, 174, 139)
     
 .container
     max-width: 1680px
@@ -150,7 +151,7 @@ a:hover span
         font-size: 24px
         font-weight: 500
         line-height: 29px
-        background: rgb(219, 174, 139)
+        background: $button-color-orange
         border: none
         padding: 17px 62px
         &:hover
@@ -161,7 +162,7 @@ a:hover span
         font-size: 24px
         font-weight: 500
         line-height: 29px
-        border: 2px solid rgb(219, 174, 139)
+        border: 2px solid $button-border-color-orange
         padding: 17px 62px
         background: none
         &:hover
@@ -176,4 +177,96 @@ a:hover span
     left: -10000px
     z-index: 0
 
+.second-section
+    min-height: 770px
+    margin-top: 120px
+    &__title
+        color: rgb(26, 18, 11)
+        font-size: 45px
+        font-weight: 500
+        line-height: 54px
+        letter-spacing: 0%
+        margin-bottom: 60px
+    &__button
+        color: rgb(245, 235, 233)
+        font-size: 24px
+        font-weight: 500
+        line-height: 29px
+        letter-spacing: 0%
+        background: $button-color-orange
+        padding: 17px 98px
+        border: none
+        display: block
+        margin: 0 auto
+        &:hover
+            background: #e5be9f
+
+.carousel-custom
+    border: 4px solid $button-border-color-orange
+    border-radius: 37px
+    display: flex
+    align-items: center
+    margin-bottom: 68px
+
+.carousel-img
+    width: 408px
+    height: 450px
+    border-radius: 37px
+    margin: 32px 47px 32px 67px
+
+.carousel-block_texts
+    margin: 0
+
+.carousel-block_title
+    color: rgb(26, 18, 11)
+    font-size: 40px
+    font-weight: 500
+    line-height: 48px
+    letter-spacing: 0%
+    margin-bottom: 22px
+
+.carousel-block_description
+    color: rgb(26, 18, 11)
+    font-size: 24px
+    font-weight: 500
+    line-height: 29px
+    letter-spacing: 3%
+    margin-bottom: 65px
+    margin-right: 35px
+
+.carousel-block_time
+    text-align: end
+    color: rgb(26, 18, 11)
+    font-size: 24px
+    font-weight: 400
+    line-height: 29px
+    letter-spacing: 0%
+    margin-right: 28px
+
+.carousel-right
+    margin-left: 180px
+    background: #000
+    opacity: 0.6
+    border-radius: 50%
+    margin-bottom: 50px
+    font-size: 28px
+
+.carousel-left
+    margin-right: 180px
+    background: #000
+    opacity: 0.6
+    border-radius: 50%
+    margin-bottom: 50px
+    font-size: 28px
+
+.third-section
+    min-height: 500px
+    margin-top: 120px
+    &__title
+        color: rgb(26, 18, 11)
+        font-size: 45px
+        font-weight: 500
+        line-height: 54px
+        letter-spacing: 0%
+        margin-bottom: 61px
 
