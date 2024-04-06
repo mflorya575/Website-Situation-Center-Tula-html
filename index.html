@@ -194,36 +194,7 @@
 
 
 
-    <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const wrapper = document.querySelector(".third-section__wrapper");
-    let isDown = false;
-    let startX;
-    let scrollLeft;
-
-    wrapper.addEventListener("mousedown", function(event) {
-        isDown = true;
-        startX = event.pageX - wrapper.offsetLeft;
-        scrollLeft = wrapper.scrollLeft;
-    });
-
-    wrapper.addEventListener("mouseleave", function() {
-        isDown = false;
-    });
-
-    wrapper.addEventListener("mouseup", function() {
-        isDown = false;
-    });
-
-    wrapper.addEventListener("mousemove", function(event) {
-        if (!isDown) return;
-        event.preventDefault();
-        const x = event.pageX - wrapper.offsetLeft;
-        const walk = (x - startX) * 2; // Умножаем на 2 для более быстрой прокрутки
-        wrapper.scrollLeft = scrollLeft - walk;
-    });
-});
-    </script>
+    <script src="./assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
