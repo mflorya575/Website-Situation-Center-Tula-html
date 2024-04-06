@@ -81,9 +81,7 @@
                                 Наше дело не так однозначно, как может показаться:
                                 сложившаяся структура организации однозначно определяет
                                 каждого участника как способного принимать собственные
-                                решения касаемо новых предложений. И нет сомнений, что
-                                элементы политического процесса объективно рассмотрены
-                                соответствующими инстанциями.
+                                решения касаемо новых предложений.
                             </p>
                             <p class="carousel-block_time">12.10.23</p>
                         </div>
@@ -128,12 +126,7 @@
                                 требует от нас анализа новых предложений. И нет сомнений,
                                 что реплицированные с зарубежных источников, современные
                                 исследования объединены в целые кластеры себе подобных.
-                                Наше дело не так однозначно, как может показаться:
-                                сложившаяся структура организации однозначно определяет
-                                каждого участника как способного принимать собственные
-                                решения касаемо новых предложений. И нет сомнений, что
-                                элементы политического процесса объективно рассмотрены
-                                соответствующими инстанциями.
+                                Наше дело не так однозначно, как может показаться.
                             </p>
                             <p class="carousel-block_time">12.10.23</p>
                         </div>
@@ -162,13 +155,75 @@
         <div class="container third-section__container">
             <!-- Заголовок -->
             <h3 class="third-section__title">НАЦИОНАЛЬНЫЕ ПРОЕКТЫ</h3>
+            <!-- Обертка карточек -->
+            <div class="third-section__wrapper">
+                <!-- Карточка здравоохранения -->
+                <div class="third-section__card">
+                    <img src="./assets/icons/hospital-image.png" alt="иконка здравоохранения" class="third-section__img1">
+                    <p class="third-section__text">Здравоохранение</p>
+                </div>
+                <!-- Карточка образования -->
+                <div class="third-section__card">
+                    <img src="./assets/icons/study-image.png" alt="иконка образования" class="third-section__img2">
+                    <p class="third-section__text">Образование</p>
+                </div>
+                <!-- Карточка демографии -->
+                <div class="third-section__card">
+                    <img src="./assets/icons/demographics-image.png" alt="иконка демографии" class="third-section__img3">
+                    <p class="third-section__text">Демография</p>
+                </div>
+
+
+                <!-- Карточка культуры -->
+                <div class="third-section__card">
+                    <img src="./assets/icons/culture-image.png" alt="иконка культуры" class="third-section__img4">
+                    <p class="third-section__text">Культура</p>
+                </div>
+                <!-- Карточка безопасных дорог -->
+                <div class="third-section__card">
+                    <img src="./assets/icons/road-image.png" alt="иконка безопасных дорог" class="third-section__img5">
+                    <p class="third-section__text">Безопасные дороги</p>
+                </div>
+
+            
+            </div>
+
         </div>
     </section>
   
 
 
 
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const wrapper = document.querySelector(".third-section__wrapper");
+    let isDown = false;
+    let startX;
+    let scrollLeft;
 
+    wrapper.addEventListener("mousedown", function(event) {
+        isDown = true;
+        startX = event.pageX - wrapper.offsetLeft;
+        scrollLeft = wrapper.scrollLeft;
+    });
+
+    wrapper.addEventListener("mouseleave", function() {
+        isDown = false;
+    });
+
+    wrapper.addEventListener("mouseup", function() {
+        isDown = false;
+    });
+
+    wrapper.addEventListener("mousemove", function(event) {
+        if (!isDown) return;
+        event.preventDefault();
+        const x = event.pageX - wrapper.offsetLeft;
+        const walk = (x - startX) * 2; // Умножаем на 2 для более быстрой прокрутки
+        wrapper.scrollLeft = scrollLeft - walk;
+    });
+});
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
