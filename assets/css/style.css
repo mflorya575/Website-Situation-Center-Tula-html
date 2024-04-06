@@ -835,31 +835,97 @@ a:hover span {
 }
 
 /* line 288, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__text2 {
+  color: #1a120b;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0%;
+  margin-top: -70px;
+  text-align: center;
+}
+
+/* line 296, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img1 {
   margin-left: 40px;
 }
 
-/* line 290, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 298, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img2 {
   margin-left: 0;
 }
 
-/* line 292, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 300, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img3 {
   margin-left: 0;
 }
 
-/* line 294, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 302, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img4 {
   margin-left: 0;
 }
 
-/* line 296, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 304, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img5 {
   margin-left: 0;
 }
 
-/* line 298, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 306, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img6 {
+  margin-left: 40px;
+}
+
+/* line 308, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img7 {
+  margin-left: 0;
+}
+
+/* line 310, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img8 {
+  margin-left: 0;
+}
+
+/* line 312, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img9 {
+  margin-left: 90px;
+}
+
+/* line 314, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img10 {
+  margin-left: 20px;
+}
+
+/* line 316, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img11 {
+  margin-left: 100px;
+}
+
+/* line 318, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img12 {
+  margin-left: 110px;
+}
+
+/* line 320, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img13 {
+  margin-left: 100px;
+}
+
+/* line 322, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img14 {
+  margin-left: 85px;
+}
+
+/* line 324, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img15 {
+  margin-left: 85px;
+}
+
+/* line 326, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.third-section__img16 {
+  margin-left: 85px;
+}
+
+/* line 328, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__card {
   width: 520px;
   height: 569px;
@@ -874,14 +940,24 @@ a:hover span {
   flex-shrink: 0;
 }
 
-/* line 310, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 340, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__card:hover {
   cursor: pointer;
 }
 
-/* line 313, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 343, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__wrapper::-webkit-scrollbar {
   scrollbar-width: none;
+}
+
+/* line 346, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+#card-text__margin {
+  margin-bottom: 10px;
+}
+
+/* line 349, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.card-last__margin {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
