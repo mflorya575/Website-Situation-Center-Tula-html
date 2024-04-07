@@ -1115,4 +1115,90 @@ a:hover span {
   letter-spacing: 3%;
 }
 
+/* line 448, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section {
+  min-height: 860px;
+  margin-top: 90px;
+  margin-bottom: 211px;
+}
+
+/* line 452, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__wrapper1 {
+  margin-bottom: 151px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 457, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 461, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__title {
+  color: black;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: 0%;
+}
+
+/* line 467, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__hr {
+  width: 130px;
+  border: 1px solid #dbae8b;
+}
+
+/* line 470, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__text {
+  color: #1a120b;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 3%;
+}
+
+/* line 476, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__text_margin {
+  margin-bottom: 64px;
+}
+
+/* line 478, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__buttons {
+  display: flex;
+  gap: 30px;
+}
+
+/* line 481, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__button1 {
+  color: #f5ebe9;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  padding: 19px 107px;
+  background: #dbae8b;
+  border: none;
+}
+
+/* line 490, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__button1:hover {
+  background: #e5be9f;
+}
+
+/* line 492, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__button2 {
+  color: #dbae8b;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  background: none;
+  padding: 19px 70px;
+  border: 2px solid #dbae8b;
+}
+
 /*# sourceMappingURL=style.css.map */
