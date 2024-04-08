@@ -28,3 +28,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+
+$(document).ready(function(){
+    $('#button').click(function(){
+        $(window).scrollTop(0);
+    });
+
+    $(document).scroll(function(){
+        var scroll_pos = $(window).scrollTop();
+        if(scroll_pos > 10){
+            $('#button').fadeIn();
+        } else {
+            $('#button').fadeOut();
+        }
+    });
+});
