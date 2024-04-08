@@ -1378,4 +1378,10 @@ a:hover span {
   color: #1a120b;
 }
 
+/* line 612, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.header-hr {
+  border: 1px solid #1a120b;
+  margin-bottom: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */

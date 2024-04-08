@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+/* Код скролла вверх при нажатии на кнопку в футере */
 $(document).ready(function(){
     $('#button').click(function(){
         $(window).scrollTop(0);
