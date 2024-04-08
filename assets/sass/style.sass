@@ -44,6 +44,13 @@
 @font-face 
     font-family: 'TTNormsPro'
     src: url(../fonts/TTNormsPro-ExtraBold.ttf)
+    font-weight: 800
+    font-style: normal
+    font-display: swap
+
+@font-face 
+    font-family: 'TTNormsPro'
+    src: url(../fonts/TTNormsPro-ExtraBlack.ttf)
     font-weight: 900
     font-style: normal
     font-display: swap
@@ -693,6 +700,40 @@ a:hover span
         margin-bottom: 40px
     &__m1
         margin-bottom: 40px
+
+/*********** 403, 404, 500 and other error pages ***********/
+
+.error-section
+    &__p1
+        font-size: 192px
+        font-weight: 800
+        line-height: 230px
+        margin-top: -100px
+    &__p2
+        color: rgb(26, 18, 11)
+        font-size: 38px
+        font-weight: 700
+        line-height: 46px
+        margin-bottom: 30px
+    &__button
+        color: rgb(255, 255, 255)
+        font-size: 24px
+        font-weight: 500
+        line-height: 29px
+        border-radius: 15px
+        padding: 12px 34px
+        border: none
+        background: $button-color-orange
+        transition: .3s all
+        &:hover
+            background: rgb(232, 195, 166)
+
+#error-section__span
+    color: rgb(219, 174, 139)
+
+.error-block
+    text-align: center
+    margin-top: 110px
 
 
 
