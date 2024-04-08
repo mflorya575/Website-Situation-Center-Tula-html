@@ -160,6 +160,39 @@ a span
 a:hover span 
   transform: translate3d(-200%, 0, 0)
 
+.dropdown
+    position: relative
+
+.dropdown-content
+    display: none
+    position: absolute
+    border-radius: 12px
+    background: #f1decf
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    z-index: 1
+    top: 100%
+    left: 50%
+    width: 160px
+
+.dropdown-content a
+    display: block
+    padding: 10px 20px
+    text-decoration: none
+    color: #333
+    transition: .3s all
+    &:hover
+        color: #e19a64
+
+.dropdown:hover .dropdown-content
+    display: block
+
+.dropdown-custom
+    color: rgb(219, 174, 139)
+    font-size: 20px
+    font-weight: 300
+    line-height: 24px
+    margin-top: 20px
+
 .main-section
     min-height: 990px
     background-image: url(../images/bg-main.jpeg)
@@ -660,5 +693,7 @@ a:hover span
         margin-bottom: 40px
     &__m1
         margin-bottom: 40px
+
+
 
 
