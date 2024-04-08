@@ -1572,12 +1572,32 @@ a:hover span {
   background: #e8c3a6;
 }
 
-/* line 731, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 730, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.error-section__dev {
+  color: #1a120b;
+  font-size: 59px;
+  font-weight: 800;
+  line-height: 116.89%;
+  letter-spacing: 4%;
+  margin-bottom: 19px;
+  margin-top: 19px;
+}
+
+/* line 738, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.error-section__dev-text {
+  color: #1a120b;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+/* line 745, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 #error-section__span {
   color: #dbae8b;
 }
 
-/* line 734, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 748, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-block {
   text-align: center;
   margin-top: 110px;
