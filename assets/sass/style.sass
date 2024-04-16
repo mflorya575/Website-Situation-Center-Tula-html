@@ -72,9 +72,9 @@ body::-webkit-scrollbar-track
   background: #dbae8b     /* цвет дорожки */
 
 body::-webkit-scrollbar-thumb
-  background-color: #4c4c87  /* цвет плашки */
+  background-color: #715c4f  /* цвет плашки */
   border-radius: 20px    /* закругления плашки */
-  border: 3px solid #a96c3d  /* padding вокруг плашки */
+  border: 1px solid #b48460  /* padding вокруг плашки */
 
 $button-color-orange: rgb(219, 174, 139)
 $button-border-color-orange: rgb(219, 174, 139)
@@ -1250,7 +1250,6 @@ a:hover span
             background: #e7c9b2
             cursor: pointer
 
-
 /*********** news.html ***********/
 
 .news-section
@@ -1295,7 +1294,7 @@ a:hover span
     &__wrapper
         display: flex
         flex-wrap: wrap
-        justify-content: space-between
+        justify-content: space-evenly
         gap: 20px
         margin-bottom: 90px
     &__block-img-tags
@@ -1367,11 +1366,6 @@ a:hover span
             background-color: rgba(219, 174, 139, 0.8)
             box-shadow: inset 0px 0px 5px rgba(0,0,0,0.3)
 
-
-
-
-
-
 /*********** detail-news.html ***********/
 
 .detailn-section
@@ -1413,6 +1407,59 @@ a:hover span
 
 #detailn-section__data-span
     font-weight: 400
+
+
+
+
+
+/*********** adaptives ***********/
+
+@media (max-width: 1400px)
+    .container
+        max-width: 1180px
+    /*********** index.html ***********/
+    .carousel-left
+        display: none
+    .carousel-right
+        display: none
+    .carousel-block_title
+        font-size: 32px
+    .carousel-block_description
+        font-size: 18px
+        line-height: 24px
+    .carousel-block_time
+        font-size: 20px
+    .fourth-section__title-mini
+        font-size: 32px
+    .fourth-section__text-mini
+        font-size: 18px
+    .fourth-section__wrapper3-right
+        margin-right: 0
+    .second-section__title
+        font-size: 36px
+    .third-section__title
+        font-size: 36px
+    .fourth-section__title
+        font-size: 36px
+    .fifth-section__title
+        font-size: 36px
+    .fifth-section__text
+        font-size: 18px
+    .fifth-section__img1
+        width: 590px
+        height: 300px
+    .fifth-section__img2
+        width: 590px
+        height: 300px
+    .fifth-section__button1
+        font-size: 18px
+        line-height: 24px
+        padding: 12px 77px
+    .fifth-section__button2
+        font-size: 18px
+        line-height: 24px
+        padding: 10px 36px
+
 
 
 
