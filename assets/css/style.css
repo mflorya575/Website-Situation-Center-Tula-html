@@ -760,15 +760,16 @@ a:hover span {
   background: #dbae8b;
   border: none;
   padding: 17px 62px;
+  transition: .3s all;
 }
 
-/* line 238, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 239, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .main-section_link-button1:hover {
   cursor: pointer;
   background: #e7c9b2;
 }
 
-/* line 241, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 242, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .main-section_link-button2 {
   color: #f5ebe9;
   font-size: 24px;
@@ -777,14 +778,16 @@ a:hover span {
   border: 2px solid #dbae8b;
   padding: 17px 62px;
   background: none;
+  transition: .3s all;
 }
 
-/* line 249, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 251, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .main-section_link-button2:hover {
   cursor: pointer;
+  background: #dbae8b;
 }
 
-/* line 252, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 255, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .overlay {
   width: 1000%;
   height: 142%;
@@ -795,13 +798,13 @@ a:hover span {
   z-index: 0;
 }
 
-/* line 261, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 264, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .second-section {
   min-height: 770px;
   margin-top: 120px;
 }
 
-/* line 264, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 267, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .second-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -811,7 +814,7 @@ a:hover span {
   margin-bottom: 60px;
 }
 
-/* line 271, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 274, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .second-section__button {
   color: #f5ebe9;
   font-size: 24px;
@@ -826,17 +829,17 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 283, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 286, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .second-section__button:hover {
   background: #e5be9f;
 }
 
-/* line 285, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 288, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .second-section__button-link {
   display: block;
 }
 
-/* line 288, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 291, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-custom {
   border: 4px solid #dbae8b;
   border-radius: 37px;
@@ -845,7 +848,7 @@ a:hover span {
   margin-bottom: 68px;
 }
 
-/* line 295, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 298, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-img {
   width: 408px;
   height: 450px;
@@ -853,12 +856,12 @@ a:hover span {
   margin: 32px 47px 32px 67px;
 }
 
-/* line 301, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 304, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-block_texts {
   margin: 0;
 }
 
-/* line 304, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 307, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-block_title {
   color: #1a120b;
   font-size: 40px;
@@ -868,7 +871,7 @@ a:hover span {
   margin-bottom: 22px;
 }
 
-/* line 312, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 315, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-block_description {
   color: #1a120b;
   font-size: 24px;
@@ -879,7 +882,7 @@ a:hover span {
   margin-right: 35px;
 }
 
-/* line 321, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 324, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-block_time {
   text-align: end;
   color: #1a120b;
@@ -890,7 +893,7 @@ a:hover span {
   margin-right: 28px;
 }
 
-/* line 330, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 333, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-right {
   margin-left: 180px;
   background: #000;
@@ -900,7 +903,7 @@ a:hover span {
   font-size: 24px;
 }
 
-/* line 338, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 341, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .carousel-left {
   margin-right: 180px;
   background: #000;
@@ -910,13 +913,13 @@ a:hover span {
   font-size: 24px;
 }
 
-/* line 346, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 349, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section {
   min-height: 500px;
   margin-top: 120px;
 }
 
-/* line 349, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 352, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -926,7 +929,7 @@ a:hover span {
   margin-bottom: 61px;
 }
 
-/* line 356, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 359, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__wrapper {
   display: flex;
   gap: 62px;
@@ -937,7 +940,7 @@ a:hover span {
   padding-bottom: 70px;
 }
 
-/* line 364, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 367, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__text {
   color: #1a120b;
   font-size: 40px;
@@ -948,7 +951,7 @@ a:hover span {
   text-align: center;
 }
 
-/* line 372, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 375, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__text2 {
   color: #1a120b;
   font-size: 38px;
@@ -959,87 +962,87 @@ a:hover span {
   text-align: center;
 }
 
-/* line 380, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 383, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img1 {
   margin-left: 40px;
 }
 
-/* line 382, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 385, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img2 {
   margin-left: 0;
 }
 
-/* line 384, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 387, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img3 {
   margin-left: 0;
 }
 
-/* line 386, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 389, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img4 {
   margin-left: 0;
 }
 
-/* line 388, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 391, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img5 {
   margin-left: 0;
 }
 
-/* line 390, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 393, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img6 {
   margin-left: 40px;
 }
 
-/* line 392, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 395, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img7 {
   margin-left: 0;
 }
 
-/* line 394, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 397, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img8 {
   margin-left: 0;
 }
 
-/* line 396, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 399, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img9 {
   margin-left: 90px;
 }
 
-/* line 398, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 401, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img10 {
   margin-left: 20px;
 }
 
-/* line 400, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 403, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img11 {
   margin-left: 100px;
 }
 
-/* line 402, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 405, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img12 {
   margin-left: 110px;
 }
 
-/* line 404, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 407, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img13 {
   margin-left: 100px;
 }
 
-/* line 406, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 409, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img14 {
   margin-left: 85px;
 }
 
-/* line 408, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 411, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img15 {
   margin-left: 85px;
 }
 
-/* line 410, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 413, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__img16 {
   margin-left: 85px;
 }
 
-/* line 412, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 415, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__card {
   width: 520px;
   height: 569px;
@@ -1054,33 +1057,33 @@ a:hover span {
   flex-shrink: 0;
 }
 
-/* line 424, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 427, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__card:hover {
   cursor: pointer;
 }
 
-/* line 427, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 430, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .third-section__wrapper::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-/* line 430, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 433, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 #card-text__margin {
   margin-bottom: 10px;
 }
 
-/* line 433, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 436, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .card-last__margin {
   margin-right: 20px;
 }
 
-/* line 436, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 439, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section {
   min-height: 930px;
   margin-top: 50px;
 }
 
-/* line 439, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 442, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -1090,46 +1093,46 @@ a:hover span {
   margin-bottom: 40px;
 }
 
-/* line 446, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 449, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper1 {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 449, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 452, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper2 {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 452, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 455, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper3 {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 455, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 458, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper1-left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* line 459, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 462, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper1-right {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* line 463, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 466, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper2-left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* line 467, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 470, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper2-right {
   display: flex;
   align-items: center;
@@ -1137,14 +1140,14 @@ a:hover span {
   margin-right: 100px;
 }
 
-/* line 472, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 475, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper3-left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* line 476, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 479, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__wrapper3-right {
   display: flex;
   align-items: center;
@@ -1152,7 +1155,7 @@ a:hover span {
   margin-right: -40px;
 }
 
-/* line 481, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 484, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__number1 {
   color: #dbae8b;
   font-size: 245px;
@@ -1161,7 +1164,7 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 487, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 490, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__number2 {
   color: #dbae8b;
   font-size: 245px;
@@ -1170,7 +1173,7 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 493, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 496, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__number3 {
   color: #dbae8b;
   font-size: 245px;
@@ -1179,7 +1182,7 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 499, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 502, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__number4 {
   color: #dbae8b;
   font-size: 245px;
@@ -1188,7 +1191,7 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 505, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 508, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__number5 {
   color: #dbae8b;
   font-size: 245px;
@@ -1197,7 +1200,7 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 511, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 514, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__number6 {
   color: #dbae8b;
   font-size: 245px;
@@ -1206,7 +1209,7 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 517, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 520, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__title-mini {
   color: #1a120b;
   font-size: 40px;
@@ -1215,12 +1218,12 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 523, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 526, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__title-mini:hover {
   text-decoration: underline;
 }
 
-/* line 525, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 528, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fourth-section__text-mini {
   color: #1a120b;
   font-size: 28px;
@@ -1229,14 +1232,14 @@ a:hover span {
   letter-spacing: 3%;
 }
 
-/* line 532, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 535, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section {
-  min-height: 860px;
+  min-height: 610px;
   margin-top: 90px;
   margin-bottom: 211px;
 }
 
-/* line 536, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 539, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__wrapper1 {
   margin-bottom: 151px;
   display: flex;
@@ -1244,14 +1247,14 @@ a:hover span {
   justify-content: space-between;
 }
 
-/* line 541, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 544, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__wrapper2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* line 545, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 548, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__title {
   color: black;
   font-size: 45px;
@@ -1260,13 +1263,13 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 551, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 554, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__hr {
   width: 130px;
   border: 1px solid #dbae8b;
 }
 
-/* line 554, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 557, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__text {
   color: #1a120b;
   font-size: 28px;
@@ -1275,18 +1278,18 @@ a:hover span {
   letter-spacing: 3%;
 }
 
-/* line 560, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 563, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__text_margin {
   margin-bottom: 64px;
 }
 
-/* line 562, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 565, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__buttons {
   display: flex;
   gap: 30px;
 }
 
-/* line 565, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 568, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__button1 {
   color: #f5ebe9;
   font-size: 24px;
@@ -1296,14 +1299,15 @@ a:hover span {
   padding: 19px 107px;
   background: #dbae8b;
   border: none;
+  transition: .3s all;
 }
 
-/* line 574, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 578, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__button1:hover {
   background: #e5be9f;
 }
 
-/* line 576, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 580, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .fifth-section__button2 {
   color: #dbae8b;
   font-size: 24px;
@@ -1313,50 +1317,57 @@ a:hover span {
   background: none;
   padding: 19px 70px;
   border: 2px solid #dbae8b;
+  transition: .3s all;
 }
 
-/* line 586, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 590, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+.fifth-section__button2:hover {
+  color: #f5ebe9;
+  background: #dbae8b;
+}
+
+/* line 594, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section {
   min-height: 1050px;
   background: #4a423c;
 }
 
-/* line 589, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 597, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__wrapper_main {
   display: flex;
   margin-bottom: 165px;
 }
 
-/* line 592, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 600, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__wrapper1 {
   padding-top: 45px;
   margin-right: 85px;
 }
 
-/* line 595, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 603, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__wrapper2 {
   padding-top: 45px;
   margin-right: 23px;
 }
 
-/* line 598, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 606, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__wrapper3 {
   padding-top: 45px;
   margin-right: 23px;
 }
 
-/* line 601, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 609, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__wrapper4 {
   padding-top: 45px;
   margin-right: 73px;
 }
 
-/* line 604, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 612, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__wrapper5 {
   padding-top: 45px;
 }
 
-/* line 606, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 614, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__text {
   color: #f5ebe9;
   font-size: 28px;
@@ -1366,12 +1377,12 @@ a:hover span {
   margin-top: 16px;
 }
 
-/* line 613, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 621, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__span {
   font-weight: 300;
 }
 
-/* line 615, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 623, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__h6 {
   margin-bottom: 16px;
   color: #f5ebe9;
@@ -1381,12 +1392,12 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 622, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 630, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__li {
   list-style-type: none;
 }
 
-/* line 624, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 632, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__link {
   margin-bottom: 16px;
   color: #f5ebe9;
@@ -1396,34 +1407,34 @@ a:hover span {
   letter-spacing: 0%;
 }
 
-/* line 631, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 639, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__link:hover {
   text-decoration: underline;
 }
 
-/* line 633, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 641, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__strelka {
   transition: .3s all;
 }
 
-/* line 635, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 643, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__strelka:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 30%;
   cursor: pointer;
 }
 
-/* line 639, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 647, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__last-info {
   padding-bottom: 36px;
 }
 
-/* line 641, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 649, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__hr {
   border: 1px solid #f5ebe9;
 }
 
-/* line 643, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 651, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .footer-section__last-text {
   color: #f5ebe9;
   font-size: 16px;
@@ -1433,29 +1444,29 @@ a:hover span {
 }
 
 /*********** privacy-policy ***********/
-/* line 652, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 660, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 #style-3 {
   color: #1a120b;
 }
 
-/* line 654, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 662, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 #style-3:hover {
   text-decoration: underline;
 }
 
-/* line 657, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 665, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .header-hr {
   border: 1px solid #1a120b;
   margin-bottom: 150px;
 }
 
-/* line 661, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 669, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section {
   min-height: 8100px;
   margin-bottom: 150px;
 }
 
-/* line 664, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 672, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__title {
   color: black;
   font-size: 45px;
@@ -1465,7 +1476,7 @@ a:hover span {
   margin-bottom: 30px;
 }
 
-/* line 671, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 679, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__h2 {
   color: #1a120b;
   font-size: 34px;
@@ -1473,7 +1484,7 @@ a:hover span {
   letter-spacing: 3%;
 }
 
-/* line 676, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 684, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__text {
   color: #1a120b;
   font-size: 28px;
@@ -1482,68 +1493,68 @@ a:hover span {
   letter-spacing: 3%;
 }
 
-/* line 682, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 690, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block1 {
   margin-bottom: 40px;
 }
 
-/* line 684, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 692, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block2 {
   margin-bottom: 40px;
 }
 
-/* line 686, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 694, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block3 {
   margin-bottom: 40px;
 }
 
-/* line 688, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 696, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block4 {
   margin-bottom: 40px;
 }
 
-/* line 690, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 698, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block5 {
   margin-bottom: 40px;
 }
 
-/* line 692, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 700, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block6 {
   margin-bottom: 40px;
 }
 
-/* line 694, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 702, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block7 {
   margin-bottom: 40px;
 }
 
-/* line 696, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 704, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block8 {
   margin-bottom: 40px;
 }
 
-/* line 698, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 706, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block9 {
   margin-bottom: 40px;
 }
 
-/* line 700, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 708, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block10 {
   margin-bottom: 40px;
 }
 
-/* line 702, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 710, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__block11 {
   margin-bottom: 40px;
 }
 
-/* line 704, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 712, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .privacy-section__m1 {
   margin-bottom: 40px;
 }
 
 /*********** 403, 404, 500 and other error pages ***********/
-/* line 710, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 718, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-section__p1 {
   font-size: 192px;
   font-weight: 800;
@@ -1551,7 +1562,7 @@ a:hover span {
   margin-top: -90px;
 }
 
-/* line 715, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 723, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-section__p2 {
   color: #1a120b;
   font-size: 38px;
@@ -1560,7 +1571,7 @@ a:hover span {
   margin-bottom: 30px;
 }
 
-/* line 721, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 729, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-section__button {
   color: white;
   font-size: 24px;
@@ -1573,12 +1584,12 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 731, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 739, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-section__button:hover {
   background: #e8c3a6;
 }
 
-/* line 733, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 741, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-section__dev {
   color: #1a120b;
   font-size: 59px;
@@ -1589,7 +1600,7 @@ a:hover span {
   margin-top: 19px;
 }
 
-/* line 741, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 749, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-section__dev-text {
   color: #1a120b;
   font-size: 30px;
@@ -1598,53 +1609,53 @@ a:hover span {
   margin-bottom: 30px;
 }
 
-/* line 748, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 756, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 #error-section__span {
   color: #dbae8b;
 }
 
-/* line 751, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 759, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .error-block {
   text-align: center;
   margin-top: 110px;
 }
 
 /*********** login.html ***********/
-/* line 757, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 765, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section {
   min-height: 350px;
   margin-bottom: 150px;
 }
 
-/* line 760, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 768, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__wrapper-main {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* line 764, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 772, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__wrapper-left {
   margin-right: 110px;
 }
 
-/* line 766, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 774, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__img {
   margin-left: -100px;
 }
 
-/* line 768, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 776, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__block1 {
   margin-bottom: 15px;
 }
 
-/* line 770, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 778, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__block2 {
   display: flex;
   gap: 5px;
 }
 
-/* line 773, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 781, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__login-text {
   color: #1a120b;
   font-size: 55px;
@@ -1653,7 +1664,7 @@ a:hover span {
   margin-bottom: 5px;
 }
 
-/* line 779, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 787, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__login-none {
   color: #1a120b;
   font-size: 18px;
@@ -1662,7 +1673,7 @@ a:hover span {
   letter-spacing: 1%;
 }
 
-/* line 785, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 793, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__login-link {
   color: #DBAE8B;
   font-size: 18px;
@@ -1671,12 +1682,12 @@ a:hover span {
   letter-spacing: 1%;
 }
 
-/* line 791, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 799, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__login-link:hover {
   text-decoration: underline;
 }
 
-/* line 793, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 801, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__input1 {
   width: 430px;
   height: 42px;
@@ -1691,7 +1702,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 805, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 813, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__input1::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -1699,7 +1710,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 810, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 818, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__input2 {
   width: 430px;
   height: 42px;
@@ -1714,7 +1725,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 822, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 830, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__input2::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -1722,14 +1733,14 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 827, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 835, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__login_footer {
   display: flex;
   align-items: center;
   margin-bottom: 41px;
 }
 
-/* line 831, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 839, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__input3 {
   width: 180px;
   height: 42px;
@@ -1744,7 +1755,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 843, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 851, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__input3::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -1752,7 +1763,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 848, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 856, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__security-code {
   width: 120px;
   height: 42px;
@@ -1762,7 +1773,7 @@ a:hover span {
   text-align: center;
 }
 
-/* line 855, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 863, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__login_footer2 {
   display: flex;
   align-items: center;
@@ -1770,20 +1781,20 @@ a:hover span {
   margin-bottom: 41px;
 }
 
-/* line 860, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 868, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__custome-checkbox {
   display: flex;
   gap: 13px;
 }
 
-/* line 863, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 871, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__form-check-input {
   margin-top: 0;
   border: 1px solid rgba(78, 70, 70, 0.46);
   background: none;
 }
 
-/* line 867, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 875, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__form-check-label {
   color: #4e4646;
   font-size: 13px;
@@ -1791,7 +1802,7 @@ a:hover span {
   line-height: 16px;
 }
 
-/* line 872, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 880, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__text-muted {
   color: #a89f9e;
   font-size: 13px;
@@ -1799,12 +1810,12 @@ a:hover span {
   line-height: 16px;
 }
 
-/* line 877, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 885, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__text-muted:hover {
   text-decoration: underline;
 }
 
-/* line 879, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 887, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__btn {
   color: #f5ebe9;
   font-size: 18px;
@@ -1817,47 +1828,47 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 889, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 897, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .login-section__btn:hover {
   background: #e7c9b2;
   cursor: pointer;
 }
 
-/* line 893, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 901, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .text-new {
   font-size: 34px;
 }
 
-/* line 896, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 904, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .text-hot {
   font-size: 34px;
 }
 
-/* line 899, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 907, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .text-sale {
   font-size: 34px;
 }
 
-/* line 902, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 910, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .text-best {
   font-size: 34px;
 }
 
 /*********** register.html ***********/
-/* line 907, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 915, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section {
   min-height: 500px;
   margin-bottom: 150px;
 }
 
-/* line 910, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 918, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__wrapper-main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-/* line 915, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 923, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__security-code {
   width: 120px;
   height: 42px;
@@ -1867,19 +1878,19 @@ a:hover span {
   text-align: center;
 }
 
-/* line 922, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 930, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__login_footer {
   display: flex;
   align-items: center;
   margin-bottom: 41px;
 }
 
-/* line 926, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 934, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__chek-form {
   margin-right: 126px;
 }
 
-/* line 928, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 936, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__create {
   color: #1a120b;
   font-size: 55px;
@@ -1889,7 +1900,7 @@ a:hover span {
   margin-left: -4px;
 }
 
-/* line 935, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 943, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__block1 {
   display: flex;
   align-items: center;
@@ -1897,7 +1908,7 @@ a:hover span {
   margin-bottom: 37px;
 }
 
-/* line 940, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 948, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__question {
   color: #1a120b;
   font-size: 20px;
@@ -1905,7 +1916,7 @@ a:hover span {
   line-height: 24px;
 }
 
-/* line 945, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 953, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__link {
   color: #dbae8b;
   font-size: 20px;
@@ -1913,12 +1924,12 @@ a:hover span {
   line-height: 24px;
 }
 
-/* line 950, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 958, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__link:hover {
   text-decoration: underline;
 }
 
-/* line 952, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 960, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input1 {
   width: 430px;
   height: 42px;
@@ -1933,7 +1944,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 964, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 972, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input1::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -1941,7 +1952,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 969, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 977, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input2 {
   width: 430px;
   height: 42px;
@@ -1956,7 +1967,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 981, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 989, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input2::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -1964,7 +1975,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 986, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 994, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input3 {
   width: 430px;
   height: 42px;
@@ -1979,7 +1990,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 998, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1006, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input3::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -1987,7 +1998,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1003, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1011, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input4 {
   width: 430px;
   height: 42px;
@@ -2002,7 +2013,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 1015, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1023, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input4::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2010,7 +2021,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1020, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1028, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input5 {
   width: 430px;
   height: 42px;
@@ -2025,7 +2036,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 1032, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1040, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input5::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2033,7 +2044,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1037, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1045, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input6 {
   width: 180px;
   height: 42px;
@@ -2047,7 +2058,7 @@ a:hover span {
   padding: 12px 0 12px 20px;
 }
 
-/* line 1048, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1056, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__input6::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2055,7 +2066,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1053, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1061, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__custome-checkboxes {
   display: flex;
   gap: 13px;
@@ -2063,14 +2074,14 @@ a:hover span {
   margin-right: 113px;
 }
 
-/* line 1058, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1066, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__login_footer2 {
   display: flex;
   align-items: center;
   margin-bottom: 41px;
 }
 
-/* line 1062, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1070, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__form-check-label {
   color: #4e4646;
   font-size: 13px;
@@ -2078,7 +2089,7 @@ a:hover span {
   line-height: 16px;
 }
 
-/* line 1067, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1075, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__pp-link {
   color: #dbae8b;
   font-size: 13px;
@@ -2086,7 +2097,7 @@ a:hover span {
   line-height: 16px;
 }
 
-/* line 1072, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1080, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__btn {
   color: #f5ebe9;
   font-size: 18px;
@@ -2100,13 +2111,13 @@ a:hover span {
   margin-bottom: 25px;
 }
 
-/* line 1083, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1091, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__btn:hover {
   background: #e7c9b2;
   cursor: pointer;
 }
 
-/* line 1086, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1094, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .register-section__text-end {
   max-width: 356px;
   color: #4e4646;
@@ -2116,13 +2127,13 @@ a:hover span {
 }
 
 /*********** reset-password.html ***********/
-/* line 1095, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1103, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section {
   min-height: 200px;
   margin-bottom: 150px;
 }
 
-/* line 1098, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1106, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__title {
   color: #1a120b;
   font-size: 48px;
@@ -2132,13 +2143,13 @@ a:hover span {
   text-align: center;
 }
 
-/* line 1105, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1113, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__block {
   display: grid;
   justify-content: center;
 }
 
-/* line 1108, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1116, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__input1 {
   width: 430px;
   height: 42px;
@@ -2153,7 +2164,7 @@ a:hover span {
   margin-bottom: 33px;
 }
 
-/* line 1120, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1128, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__input1::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2161,7 +2172,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1125, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1133, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__input2 {
   width: 430px;
   height: 42px;
@@ -2176,7 +2187,7 @@ a:hover span {
   margin-bottom: 47px;
 }
 
-/* line 1137, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1145, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__input2::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2184,13 +2195,13 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1142, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1150, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__form-group3 {
   display: flex;
   justify-content: center;
 }
 
-/* line 1145, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1153, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__btn {
   color: #f5ebe9;
   font-size: 18px;
@@ -2203,19 +2214,19 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 1155, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1163, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .rpassword-section__btn:hover {
   background: #e7c9b2;
 }
 
 /*********** forgot-password.html ***********/
-/* line 1160, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1168, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section {
   min-height: 230px;
   margin-bottom: 150px;
 }
 
-/* line 1163, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1171, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__title {
   color: #1a120b;
   font-size: 48px;
@@ -2225,13 +2236,13 @@ a:hover span {
   margin-bottom: 39px;
 }
 
-/* line 1170, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1178, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__block2 {
   display: grid;
   justify-content: center;
 }
 
-/* line 1173, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1181, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__input1 {
   width: 430px;
   height: 42px;
@@ -2246,7 +2257,7 @@ a:hover span {
   margin-bottom: 33px;
 }
 
-/* line 1185, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1193, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__input1::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2254,7 +2265,7 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1190, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1198, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__input2 {
   width: 180px;
   height: 42px;
@@ -2270,7 +2281,7 @@ a:hover span {
   margin-bottom: 33px;
 }
 
-/* line 1203, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1211, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__input2::placeholder {
   color: #4e4646;
   font-size: 14px;
@@ -2278,28 +2289,28 @@ a:hover span {
   line-height: 17px;
 }
 
-/* line 1208, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1216, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__security-code {
   border: 1px solid #4a423c;
   border-radius: 8px;
   padding: 5px 10px;
 }
 
-/* line 1212, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1220, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__login_footer5 {
   display: flex;
   align-items: start;
   justify-content: space-between;
 }
 
-/* line 1216, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1224, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__login_footer {
   display: flex;
   margin-bottom: 39px;
   justify-content: space-between;
 }
 
-/* line 1220, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1228, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__form-check-label {
   color: #4e4646;
   font-size: 13px;
@@ -2307,14 +2318,14 @@ a:hover span {
   line-height: 16px;
 }
 
-/* line 1225, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1233, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__custome-checkbox {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-/* line 1229, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1237, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__text-muted {
   color: #dbae8b;
   font-size: 13px;
@@ -2322,18 +2333,18 @@ a:hover span {
   line-height: 16px;
 }
 
-/* line 1234, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1242, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__text-muted:hover {
   text-decoration: underline;
 }
 
-/* line 1236, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1244, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__form-group3 {
   display: flex;
   justify-content: center;
 }
 
-/* line 1239, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1247, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__btn {
   color: #f5ebe9;
   font-size: 18px;
@@ -2346,25 +2357,25 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 1249, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1257, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .forgotp-section__btn:hover {
   background: #e7c9b2;
   cursor: pointer;
 }
 
 /*********** news.html ***********/
-/* line 1255, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1263, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section {
   min-height: 730px;
   margin-bottom: 150px;
 }
 
-/* line 1258, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1266, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__news1 {
   margin-bottom: 20px;
 }
 
-/* line 1260, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1268, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__title-block {
   display: flex;
   align-items: center;
@@ -2372,7 +2383,7 @@ a:hover span {
   margin-bottom: 60px;
 }
 
-/* line 1265, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1273, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -2380,12 +2391,12 @@ a:hover span {
   line-height: 54px;
 }
 
-/* line 1270, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1278, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__form {
   position: relative;
 }
 
-/* line 1272, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1280, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__input {
   width: 276px;
   height: 55px;
@@ -2399,7 +2410,7 @@ a:hover span {
   padding: 10px 0 10px 69px;
 }
 
-/* line 1283, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1291, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__input::placeholder {
   color: rgba(26, 18, 11, 0.66);
   font-size: 29px;
@@ -2407,7 +2418,7 @@ a:hover span {
   line-height: 35px;
 }
 
-/* line 1288, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1296, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__input-btn {
   background: none;
   border: none;
@@ -2416,7 +2427,7 @@ a:hover span {
   left: 27px;
 }
 
-/* line 1294, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1302, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -2425,12 +2436,12 @@ a:hover span {
   margin-bottom: 90px;
 }
 
-/* line 1300, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1308, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__block-img-tags {
   margin-bottom: 20px;
 }
 
-/* line 1302, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1310, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__img {
   width: 490px;
   height: 547px;
@@ -2438,13 +2449,13 @@ a:hover span {
   margin-bottom: 20px;
 }
 
-/* line 1307, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1315, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__tags {
   display: flex;
   gap: 10px;
 }
 
-/* line 1310, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1318, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__p-tag {
   color: #1a120b;
   font-size: 12px;
@@ -2456,13 +2467,13 @@ a:hover span {
   transition: .3s all;
 }
 
-/* line 1319, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1327, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__p-tag:hover {
   background: rgba(230, 198, 174, 0.7);
   cursor: pointer;
 }
 
-/* line 1322, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1330, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__title-mini {
   color: black;
   font-size: 35px;
@@ -2471,12 +2482,12 @@ a:hover span {
   margin-bottom: 20px;
 }
 
-/* line 1328, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1336, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__title-mini:hover {
   text-decoration: underline;
 }
 
-/* line 1330, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1338, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__description {
   max-width: 489px;
   color: black;
@@ -2485,14 +2496,14 @@ a:hover span {
   line-height: 31px;
 }
 
-/* line 1336, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1344, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__block-btns {
   display: flex;
   justify-content: center;
   gap: 17px;
 }
 
-/* line 1340, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1348, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__link-pg {
   color: #1a120b;
   font-size: 24px;
@@ -2503,19 +2514,19 @@ a:hover span {
   padding: 4px 15px;
 }
 
-/* line 1348, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1356, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__link-pg:hover {
   cursor: pointer;
 }
 
-/* line 1350, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1358, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__link-pg:active {
   transform: translateY(1px);
   background-color: rgba(219, 174, 139, 0.8);
   box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 1354, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1362, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__link-pgg {
   color: #1a120b;
   font-size: 24px;
@@ -2526,12 +2537,12 @@ a:hover span {
   padding: 4px 30px;
 }
 
-/* line 1362, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1370, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__link-pgg:hover {
   cursor: pointer;
 }
 
-/* line 1364, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1372, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .news-section__link-pgg:active {
   transform: translateY(1px);
   background-color: rgba(219, 174, 139, 0.8);
@@ -2539,24 +2550,24 @@ a:hover span {
 }
 
 /*********** detail-news.html ***********/
-/* line 1371, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1379, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section {
   min-height: 730px;
   margin-bottom: 150px;
 }
 
-/* line 1374, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1382, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__wrapper {
   display: flex;
   margin-bottom: 39px;
 }
 
-/* line 1377, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1385, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__wrapper-left {
   margin-right: 96px;
 }
 
-/* line 1379, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1387, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__title {
   color: #1a120b;
   font-size: 45px;
@@ -2565,7 +2576,7 @@ a:hover span {
   margin-bottom: 19px;
 }
 
-/* line 1385, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1393, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__description {
   color: #1a120b;
   font-size: 28px;
@@ -2574,14 +2585,14 @@ a:hover span {
   max-width: 743px;
 }
 
-/* line 1391, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1399, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__img {
   margin-bottom: 21px;
   width: 840px;
   height: 600px;
 }
 
-/* line 1395, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1403, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__data {
   color: #1a120b;
   font-size: 28px;
@@ -2589,7 +2600,7 @@ a:hover span {
   line-height: 34px;
 }
 
-/* line 1400, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1408, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__link {
   color: black;
   font-size: 22px;
@@ -2597,97 +2608,257 @@ a:hover span {
   line-height: 26px;
 }
 
-/* line 1405, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1413, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 .detailn-section__link:hover {
   text-decoration: underline;
 }
 
-/* line 1408, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+/* line 1416, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
 #detailn-section__data-span {
   font-weight: 400;
 }
 
 /*********** adaptives ***********/
 @media (max-width: 1400px) {
-  /* line 1418, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1426, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .container {
     max-width: 1180px;
   }
   /*********** index.html ***********/
-  /* line 1421, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1429, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .carousel-left {
     display: none;
   }
-  /* line 1423, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1431, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .carousel-right {
     display: none;
   }
-  /* line 1425, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1433, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .carousel-block_title {
     font-size: 32px;
   }
-  /* line 1427, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1435, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .carousel-block_description {
     font-size: 18px;
     line-height: 24px;
   }
-  /* line 1430, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1438, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .carousel-block_time {
     font-size: 20px;
   }
-  /* line 1432, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1440, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fourth-section__title-mini {
     font-size: 32px;
   }
-  /* line 1434, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1442, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fourth-section__text-mini {
     font-size: 18px;
   }
-  /* line 1436, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1444, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fourth-section__wrapper3-right {
     margin-right: 0;
   }
-  /* line 1438, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1446, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .second-section__title {
     font-size: 36px;
   }
-  /* line 1440, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1448, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .third-section__title {
     font-size: 36px;
   }
-  /* line 1442, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1450, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fourth-section__title {
     font-size: 36px;
   }
-  /* line 1444, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1452, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fifth-section__title {
     font-size: 36px;
   }
-  /* line 1446, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1454, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fifth-section__text {
     font-size: 18px;
   }
-  /* line 1448, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1456, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fifth-section__img1 {
     width: 590px;
     height: 300px;
   }
-  /* line 1451, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1459, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fifth-section__img2 {
     width: 590px;
     height: 300px;
   }
-  /* line 1454, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1462, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fifth-section__button1 {
     font-size: 18px;
     line-height: 24px;
     padding: 12px 77px;
   }
-  /* line 1458, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  /* line 1466, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
   .fifth-section__button2 {
     font-size: 18px;
     line-height: 24px;
     padding: 10px 36px;
+  }
+  /* line 1470, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .footer-section__h6 {
+    font-size: 28px;
+  }
+  /* line 1472, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .footer-section__link {
+    font-size: 22px;
+  }
+  /* line 1474, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .footer-section__text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1110px) {
+  /* line 1478, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .overlay {
+    width: 1900%;
+    height: 135%;
+  }
+}
+
+@media (max-width: 1070px) {
+  /* line 1483, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .container {
+    max-width: 780px;
+  }
+  /*********** index.html ***********/
+  /* line 1486, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .main-section_title {
+    font-size: 38px;
+  }
+  /* line 1488, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .main-section_text {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  /* line 1491, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .main-section_link-button1 {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px 45px;
+  }
+  /* line 1495, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .main-section_link-button2 {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 15px 45px;
+  }
+  /* line 1499, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .carousel-custom {
+    display: block;
+  }
+  /* line 1501, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .carousel-img {
+    margin: 0;
+    padding: 30px;
+    border-radius: 80px;
+    height: 490px;
+  }
+  /* line 1506, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .carousel-block_texts {
+    margin-left: 30px;
+  }
+  /* line 1508, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .second-section {
+    margin-top: 70px;
+  }
+  /* line 1510, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 50px;
+  }
+  /* line 1512, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .third-section {
+    margin-top: 70px;
+  }
+  /* line 1514, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .third-section__title {
+    margin-bottom: 50px;
+  }
+  /* line 1516, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .brrr {
+    display: none;
+  }
+  /* line 1518, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section {
+    margin-top: 20px;
+  }
+  /* line 1520, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__title {
+    margin-bottom: 0;
+  }
+  /* line 1522, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__wrapper1 {
+    display: block;
+  }
+  /* line 1524, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__wrapper2 {
+    display: block;
+  }
+  /* line 1526, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__wrapper3 {
+    display: block;
+  }
+  /* line 1528, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__number1 {
+    line-height: 220px;
+  }
+  /* line 1530, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__number2 {
+    line-height: 220px;
+  }
+  /* line 1532, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__number3 {
+    line-height: 220px;
+  }
+  /* line 1534, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__number4 {
+    line-height: 220px;
+  }
+  /* line 1536, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__number5 {
+    line-height: 220px;
+  }
+  /* line 1538, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fourth-section__number6 {
+    line-height: 220px;
+  }
+  /* line 1540, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fifth-section {
+    margin-top: 70px;
+  }
+  /* line 1542, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fifth-section__img1 {
+    display: none;
+  }
+  /* line 1544, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fifth-section__img2 {
+    display: none;
+  }
+  /* line 1546, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fifth-section__text_margin {
+    margin-bottom: 30px;
+  }
+  /* line 1548, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fifth-section__wrapper1 {
+    margin-bottom: 100px;
+  }
+  /* line 1550, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .brrr {
+    display: none;
+  }
+  /* line 1552, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .fifth-section {
+    margin-bottom: 150px;
+  }
+  /* line 1554, ../python/course_fitst_project_django/shops/template-tula/assets/sass/style.sass */
+  .footer-section__wrapper_main {
+    display: block;
   }
 }
 

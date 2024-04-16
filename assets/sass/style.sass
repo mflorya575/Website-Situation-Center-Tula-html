@@ -235,6 +235,7 @@ a:hover span
         background: $button-color-orange
         border: none
         padding: 17px 62px
+        transition: .3s all
         &:hover
             cursor: pointer
             background: #e7c9b2
@@ -246,8 +247,10 @@ a:hover span
         border: 2px solid $button-border-color-orange
         padding: 17px 62px
         background: none
+        transition: .3s all
         &:hover
             cursor: pointer
+            background: $button-color-orange
 
 .overlay
     width: 1000%
@@ -530,7 +533,7 @@ a:hover span
         letter-spacing: 3%
 
 .fifth-section
-    min-height: 860px
+    min-height: 610px
     margin-top: 90px
     margin-bottom: 211px
     &__wrapper1
@@ -571,6 +574,7 @@ a:hover span
         padding: 19px 107px
         background: $button-color-orange
         border: none
+        transition: .3s all
         &:hover
             background: #e5be9f
     &__button2
@@ -582,6 +586,10 @@ a:hover span
         background: none
         padding: 19px 70px
         border: 2px solid $button-border-color-orange
+        transition: .3s all
+        &:hover
+            color: rgb(245, 235, 233)
+            background: $button-color-orange
 
 .footer-section
     min-height: 1050px
@@ -1459,8 +1467,93 @@ a:hover span
         font-size: 18px
         line-height: 24px
         padding: 10px 36px
+    .footer-section__h6
+        font-size: 28px
+    .footer-section__link
+        font-size: 22px
+    .footer-section__text
+        font-size: 22px
 
+@media (max-width: 1110px)
+    .overlay
+        width: 1900%
+        height: 135%
 
+@media (max-width: 1070px)
+    .container
+        max-width: 780px
+    /*********** index.html ***********/
+    .main-section_title
+        font-size: 38px
+    .main-section_text
+        font-size: 18px
+        margin-bottom: 25px
+    .main-section_link-button1
+        font-size: 18px
+        line-height: 24px
+        padding: 15px 45px
+    .main-section_link-button2
+        font-size: 18px
+        line-height: 24px
+        padding: 15px 45px
+    .carousel-custom
+        display: block
+    .carousel-img
+        margin: 0
+        padding: 30px
+        border-radius: 80px
+        height: 490px
+    .carousel-block_texts
+        margin-left: 30px
+    .second-section
+        margin-top: 70px
+    .second-section__title
+        margin-bottom: 50px
+    .third-section
+        margin-top: 70px
+    .third-section__title
+        margin-bottom: 50px
+    .brrr
+        display: none
+    .fourth-section
+        margin-top: 20px
+    .fourth-section__title
+        margin-bottom: 0
+    .fourth-section__wrapper1
+        display: block
+    .fourth-section__wrapper2
+        display: block
+    .fourth-section__wrapper3
+        display: block
+    .fourth-section__number1
+        line-height: 220px
+    .fourth-section__number2 
+        line-height: 220px
+    .fourth-section__number3 
+        line-height: 220px
+    .fourth-section__number4 
+        line-height: 220px
+    .fourth-section__number5 
+        line-height: 220px
+    .fourth-section__number6 
+        line-height: 220px
+    .fifth-section
+        margin-top: 70px
+    .fifth-section__img1
+        display: none
+    .fifth-section__img2
+        display: none
+    .fifth-section__text_margin
+        margin-bottom: 30px
+    .fifth-section__wrapper1
+        margin-bottom: 100px
+    .brrr
+        display: none
+    .fifth-section
+        margin-bottom: 150px
+    .footer-section__wrapper_main
+        display: block 
+    
 
 
 
