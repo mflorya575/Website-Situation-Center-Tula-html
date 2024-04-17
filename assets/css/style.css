@@ -2234,7 +2234,9 @@ a:hover span {
 
 .news-section__tags {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
+  width: 450px;
 }
 
 .news-section__p-tag {
@@ -2865,6 +2867,9 @@ a:hover span {
   .news-section__img {
     width: 320px;
     height: 400px;
+  }
+  .news-section__tags {
+    width: 320px;
   }
   .news-section__description {
     font-size: 18px;
