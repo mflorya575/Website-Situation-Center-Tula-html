@@ -572,7 +572,7 @@ a::after {
   top: 0;
   transform-origin: 100% 50%;
   transform: translate3d(200%, 0, 0);
-  transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: 0.3s cubic-bezier(0.76, 0, 0.24, 1);
   color: #f5ebe9;
 }
 
@@ -2416,6 +2416,61 @@ a:hover span {
 }
 
 /*********** adaptives ***********/
+@media (max-width: 1750px) {
+  .container {
+    max-width: 1450px;
+  }
+  /*********** ------------ ***********/
+  .header-link_margin1 {
+    margin-right: 150px;
+  }
+  .header-link_margin2 {
+    margin-right: 150px;
+  }
+  .header-link_margin3 {
+    margin-right: 80px;
+  }
+  .header-link_margin4 {
+    margin-left: 80px;
+  }
+  .header-link_margin5 {
+    margin-left: 150px;
+  }
+  .header-link_margin6 {
+    margin-left: 150px;
+  }
+  .header-block1-link {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .header-block1-link_custom {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 1485px) {
+  /*********** ------------ ***********/
+  .header-link_margin1 {
+    margin-right: 120px;
+  }
+  .header-link_margin2 {
+    margin-right: 120px;
+  }
+  .header-link_margin3 {
+    margin-right: 130px;
+  }
+  .header-link_margin4 {
+    margin-left: 50px;
+  }
+  .header-link_margin5 {
+    margin-left: 120px;
+  }
+  .header-link_margin6 {
+    margin-left: 120px;
+  }
+}
+
 @media (max-width: 1400px) {
   .container {
     max-width: 1180px;
