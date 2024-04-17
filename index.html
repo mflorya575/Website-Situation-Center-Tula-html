@@ -59,6 +59,53 @@
                     </ul>
                 </div>
             </header>
+            <!-- Мобильное меню -->
+            <div class="mobile-menu mobile-menu__active">
+                <div class="container">
+                    <div class="mobile-menu__block-img">
+                        <img src="./assets/icons/logo-light.png" alt="логотип центра" class="mobile-menu__logo">
+                        <img src="./assets/icons/menu-button.svg" alt="иконка кнопки меню" class="mobile-menu__button">
+                    </div>
+                    <div class="mobile-menu__block" style="display: none;">
+                        <nav class="mobile-menu__nav">
+                            <ul class="mobile-menu__ul">
+                                <li class="mobile-menu__li"><a href="#" class="mobile-menu__link mobile-menu__margin1">Данные</a></li>
+                                <li class="mobile-menu__li"><a href="#" class="mobile-menu__link mobile-menu__margin2">Кафедры</a></li>
+                                <li class="mobile-menu__li"><a href="#" class="mobile-menu__link mobile-menu__margin3">Проекты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="mobile-menu__block-link">
+                            <div class="mobile-menu__displayp">
+                                <img src="./assets/icons/profile-icon.svg" alt="икнока пользователя" class="mobile-menu__profile">
+                                <a href="#" class="mobile-menu__custom-link" id="personal-account-link">Личный кабинет</a>
+                            </div>
+                            <div class="dropdown-content" id="dropdown-content" style="display: none; position: sticky; z-index: 100;">
+                                <a class="dropdown-custom" href="#">Мой аккаунт</a>
+                                <a class="dropdown-custom" href="login.html">Вход</a>
+                            </div>
+                        </div>
+                        <hr class="mobile-menu__hr">
+                        <div class="mobile-menu__wrapper-mini">
+                            <div class="mobile-menu__block2">
+                                <p class="mobile-menu__text1">Адрес:</p>
+                                <p class="mobile-menu__text2">г. Тула, просп. Ленина, 53Б</p>
+                            </div>
+                            <div class="mobile-menu__block22">
+                                <p class="mobile-menu__text1">Номер телефона:</p>
+                                <p class="mobile-menu__text2">8 (4872) 36-48-74</p>
+                            </div>
+                            <div class="mobile-menu__block222">
+                                <p class="mobile-menu__text1">Электронная почта:</p>
+                                <p class="mobile-menu__text2">tula@rea.ru</p>
+                            </div>
+                            <div class="mobile-menu__block2222">
+                                <p class="mobile-menu__text1">Часы работы:</p>
+                                <p class="mobile-menu__text2">8:30 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Центральный блок информации -->
             <div class="main-section-block">
                 <h1 class="main-section_title">Ситуационный центр РЭУ им. Г.В. Плеханова<br>
@@ -189,7 +236,7 @@
             <div class="third-section__wrapper">
                 <!-- Карточка здравоохранения -->
                 <div class="third-section__card">
-                    <a href="#"><img src="./assets/icons/hospital-image.png" alt="иконка здравоохранения" class="third-section__img1"></a>
+                    <a href="project1-hospital.html"><img src="./assets/icons/hospital-image.png" alt="иконка здравоохранения" class="third-section__img1"></a>
                     <p class="third-section__text">Здравоохранение</p>
                 </div>
                 <!-- Карточка образования -->

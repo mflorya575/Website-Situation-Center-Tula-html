@@ -484,6 +484,87 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*********** index ***********/
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu__nav {
+  padding-top: 47px;
+  padding-left: 50px;
+}
+
+.mobile-menu__link {
+  color: #f5ebe9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.mobile-menu__link:hover {
+  text-decoration: underline;
+}
+
+.mobile-menu__block-link {
+  padding-top: 23px;
+  padding-left: 50px;
+}
+
+.mobile-menu__margin2 {
+  margin-top: 23px;
+}
+
+.mobile-menu__margin3 {
+  margin-top: 23px;
+}
+
+.mobile-menu__displayp {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.mobile-menu__custom-link {
+  color: #f5ebe9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.mobile-menu__hr {
+  border: 1px solid #dbae8b;
+}
+
+.mobile-menu__wrapper-mini {
+  padding-left: 50px;
+}
+
+.mobile-menu__text1 {
+  color: #f5ebe9;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.mobile-menu__text2 {
+  color: #f5ebe9;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.mobile-menu__block2 {
+  padding-bottom: 23px;
+}
+
+.mobile-menu__block22 {
+  padding-bottom: 23px;
+}
+
+.mobile-menu__block222 {
+  padding-bottom: 23px;
+}
+
 .header {
   padding-top: 52px;
   display: flex;
@@ -2476,6 +2557,39 @@ a:hover span {
     max-width: 1180px;
   }
   /*********** index.html ***********/
+  .header {
+    display: none;
+  }
+  .overlay {
+    height: 152%;
+  }
+  .mobile-menu {
+    position: sticky;
+    z-index: 2;
+  }
+  .mobile-menu__button {
+    right: 50px;
+    position: fixed;
+    top: 60px;
+    z-index: 77;
+  }
+  .mobile-menu__block-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  .mobile-menu__active {
+    display: block;
+  }
+  .mobile-menu__block {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 341px;
+    height: 100vh;
+    background: rgba(26, 18, 11, 0.87);
+  }
   .carousel-left {
     display: none;
   }
@@ -2548,7 +2662,7 @@ a:hover span {
 @media (max-width: 1110px) {
   .overlay {
     width: 1900%;
-    height: 135%;
+    height: 152%;
   }
 }
 
@@ -2557,6 +2671,9 @@ a:hover span {
     max-width: 780px;
   }
   /*********** index.html ***********/
+  .overlay {
+    height: 145%;
+  }
   .main-section_title {
     font-size: 38px;
   }
@@ -2678,7 +2795,7 @@ a:hover span {
   }
   .overlay {
     width: 4000%;
-    height: 130%;
+    height: 150%;
   }
   .second-section__button {
     font-size: 18px;
@@ -2810,6 +2927,12 @@ a:hover span {
   }
 }
 
+@media (max-width: 520px) {
+  .overlay {
+    height: 144%;
+  }
+}
+
 @media (max-width: 460px) {
   /*********** index.html ***********/
   .main-section-block {
@@ -2897,6 +3020,18 @@ a:hover span {
   }
   .hospital-section__title-project {
     font-size: 26px;
+  }
+}
+
+@media (max-width: 460px) {
+  .overlay {
+    height: 137%;
+  }
+}
+
+@media (max-width: 380px) {
+  .overlay {
+    height: 126%;
   }
 }
 

@@ -44,3 +44,26 @@ $(document).ready(function(){
         }
     });
 });
+
+
+/* Код обработки нажатия на ЛК в шапке */
+document.getElementById('personal-account-link').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    var dropdown = document.getElementById('dropdown-content');
+    if (dropdown.style.display === 'none') {
+        dropdown.style.display = 'block';
+    } else {
+        dropdown.style.display = 'none';
+    }
+});
+
+
+/* Код обработки нажатия на кнопку меню и выползание его справа */
+document.querySelector('.mobile-menu__button').addEventListener('click', function() {
+    var menuBlock = document.querySelector('.mobile-menu__block');
+    if (menuBlock.style.display === 'none') {
+        menuBlock.style.display = 'block';
+    } else {
+        menuBlock.style.display = 'none';
+    }
+});
