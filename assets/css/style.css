@@ -2530,6 +2530,10 @@ a:hover span {
     font-size: 18px;
     line-height: 21px;
   }
+  /*********** projects ***********/
+  .hospital-section__wrapper {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 1485px) {
