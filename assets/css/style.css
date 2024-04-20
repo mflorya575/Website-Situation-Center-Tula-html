@@ -2534,6 +2534,22 @@ a:hover span {
   .hospital-section__wrapper {
     justify-content: space-around;
   }
+  /*********** detail-news.html ***********/
+  .detailn-section__title {
+    font-size: 40px;
+  }
+  .detailn-section__description {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .detailn-section__img {
+    width: 740px;
+    height: 500px;
+  }
+  .detailn-section__data {
+    font-size: 26px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 1485px) {
@@ -2555,6 +2571,20 @@ a:hover span {
   }
   .header-link_margin6 {
     margin-left: 120px;
+  }
+  /*********** detail-news.html ***********/
+  .detailn-section__wrapper {
+    flex-direction: column-reverse;
+  }
+  .detailn-section__img {
+    width: 840px;
+    height: 600px;
+  }
+  .detailn-section__wrapper-right {
+    margin-bottom: 20px;
+  }
+  .detailn-section__description {
+    max-width: none;
   }
 }
 
@@ -2809,12 +2839,31 @@ a:hover span {
   .login-section__wrapper-left {
     margin-right: 0;
   }
+  /*********** detail-news.html ***********/
+  .detailn-section__img {
+    width: 740px;
+    height: 500px;
+  }
+  .detailn-section__title {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 780px) {
   /*********** index.html ***********/
   .br {
     display: none;
+  }
+  /*********** detail-news.html ***********/
+  .detailn-section__img {
+    width: 540px;
+    height: 300px;
+  }
+  .detailn-section__data {
+    font-size: 24px;
+  }
+  .detailn-section__description {
+    font-size: 24px;
   }
 }
 
@@ -2958,6 +3007,20 @@ a:hover span {
   .hospital-section__card {
     margin-bottom: 20px;
   }
+  /*********** detail-news.html ***********/
+  .detailn-section__img {
+    width: 340px;
+    height: 200px;
+  }
+  .detailn-section__data {
+    font-size: 20px;
+  }
+  .detailn-section__description {
+    font-size: 20px;
+  }
+  .detailn-section__wrapper-left {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 520px) {
@@ -3077,6 +3140,14 @@ a:hover span {
 @media (max-width: 380px) {
   .overlay {
     height: 126%;
+  }
+  /*********** detail-news.html ***********/
+  .detailn-section__img {
+    width: 300px;
+    height: 200px;
+  }
+  .detailn-section__link {
+    font-size: 20px;
   }
 }
 
