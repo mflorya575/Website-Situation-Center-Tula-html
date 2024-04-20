@@ -2847,6 +2847,16 @@ a:hover span {
   .detailn-section__title {
     font-size: 32px;
   }
+  /*********** project-detail.html ***********/
+  .detailpr-section__title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .detailpr-section__description {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 780px) {
@@ -3138,6 +3148,10 @@ a:hover span {
   }
   .rpassword-section__input2 {
     width: 320px;
+  }
+  /*********** project-detail.html ***********/
+  .detailpr-section__title {
+    font-size: 28px;
   }
 }
 
