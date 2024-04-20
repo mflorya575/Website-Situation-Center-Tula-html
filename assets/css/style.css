@@ -2707,6 +2707,16 @@ a:hover span {
   .login-section__login-link {
     font-size: 16px;
   }
+  /*********** policy-privacy.html ***********/
+  .privacy-section__title {
+    font-size: 40px;
+  }
+  .privacy-section__h2 {
+    font-size: 32px;
+  }
+  .privacy-section__text {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 1110px) {
@@ -2882,6 +2892,17 @@ a:hover span {
   .detailn-section__description {
     font-size: 24px;
   }
+  /*********** policy-privacy.html ***********/
+  .privacy-section__title {
+    font-size: 34px;
+  }
+  .privacy-section__h2 {
+    font-size: 28px;
+  }
+  .privacy-section__text {
+    font-size: 20px;
+    line-height: 120%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -3041,6 +3062,10 @@ a:hover span {
   /*********** forgot-password.html ***********/
   .forgotp-section__title {
     font-size: 40px;
+  }
+  /*********** policy-privacy.html ***********/
+  .privacy-section__title {
+    font-size: 30px;
   }
 }
 
@@ -3231,6 +3256,17 @@ a:hover span {
   }
   .register-section__custome-checkboxes {
     margin-right: 30px;
+  }
+  /*********** policy-privacy.html ***********/
+  .privacy-section__title {
+    font-size: 26px;
+    text-align: center;
+  }
+  .privacy-section__h2 {
+    font-size: 24px;
+  }
+  .privacy-section__text {
+    font-size: 18px;
   }
 }
 
