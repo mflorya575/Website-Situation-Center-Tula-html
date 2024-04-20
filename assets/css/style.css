@@ -2714,6 +2714,13 @@ a:hover span {
     width: 1900%;
     height: 152%;
   }
+  /*********** register.html ***********/
+  .register-section__img {
+    display: none;
+  }
+  .register-section__wrapper-main {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1070px) {
@@ -3182,6 +3189,48 @@ a:hover span {
   }
   .forgotp-section__text-muted {
     font-size: 12px;
+  }
+  /*********** register.html ***********/
+  .register-section__create {
+    font-size: 42px;
+  }
+  .register-section__question {
+    font-size: 16px;
+  }
+  .register-section__link {
+    font-size: 16px;
+  }
+  .register-section__form-check-label {
+    font-size: 12px;
+  }
+  .register-section__pp-link {
+    font-size: 12px;
+  }
+  .register-section__input1 {
+    width: 320px;
+  }
+  .register-section__input2 {
+    width: 320px;
+  }
+  .register-section__input3 {
+    width: 320px;
+  }
+  .register-section__input4 {
+    width: 320px;
+  }
+  .register-section__input5 {
+    width: 320px;
+  }
+  .register-section__chek-form {
+    margin-right: 20px;
+  }
+  .register-section__btn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 22px;
+  }
+  .register-section__custome-checkboxes {
+    margin-right: 30px;
   }
 }
 
