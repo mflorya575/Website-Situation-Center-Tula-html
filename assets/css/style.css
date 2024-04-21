@@ -2244,14 +2244,21 @@ a:hover span {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 4px solid #dbae8b;
+  border-radius: 37px;
 }
 
 .contactform-section__img {
   margin-top: -80px;
 }
 
+.contactform-section__left {
+  padding: 65px 0 65px 0;
+}
+
 .contactform-section__right {
   margin-left: 165px;
+  padding: 65px 0 65px 0;
 }
 
 .contactform-section__input1 {
