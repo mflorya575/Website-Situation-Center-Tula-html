@@ -2776,6 +2776,17 @@ a:hover span {
     font-size: 26px;
     line-height: 32px;
   }
+  /*********** contact.html ***********/
+  .contact-section__text {
+    font-size: 32px;
+  }
+  .contact-section__title {
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+  .contactform-section__title {
+    font-size: 42px;
+  }
 }
 
 @media (max-width: 1485px) {
@@ -2811,6 +2822,19 @@ a:hover span {
   }
   .detailn-section__description {
     max-width: none;
+  }
+  /*********** contact.html ***********/
+  .contact-section__wrapper {
+    display: block;
+  }
+  .contact-section__wrapper-left {
+    margin-bottom: 30px;
+  }
+  .contact-section__block1 {
+    margin-right: 150px;
+  }
+  .contact-section__iframe {
+    width: 1000px;
   }
 }
 
@@ -2943,6 +2967,25 @@ a:hover span {
   .privacy-section__text {
     font-size: 24px;
   }
+  /*********** contact.html ***********/
+  .contactform-section__input1 {
+    width: 390px;
+  }
+  .contactform-section__input2 {
+    width: 390px;
+  }
+  .contactform-section__input3 {
+    width: 390px;
+  }
+  .contactform-section__input4 {
+    width: 390px;
+  }
+  .contactform-section__textarea {
+    width: 390px;
+  }
+  .contactform-section__right {
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 1110px) {
@@ -3072,6 +3115,38 @@ a:hover span {
   .hospital-section__wrapper {
     justify-content: center;
   }
+  /*********** contact.html ***********/
+  .contactform-section__img {
+    display: none;
+  }
+  .contactform-section__right {
+    margin-left: 0;
+  }
+  .contactform-section__btn {
+    display: block;
+    justify-content: center;
+  }
+  .contact-section__text {
+    font-size: 20px;
+  }
+  .contact-section__title {
+    font-size: 36px;
+  }
+  .contactform-section__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .contact-section__iframe {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-section {
+    margin-bottom: 100px;
+  }
+  .contactform-section {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -3128,6 +3203,19 @@ a:hover span {
   .privacy-section__text {
     font-size: 20px;
     line-height: 120%;
+  }
+  /*********** contact.html ***********/
+  .contact-section__wrapper-left {
+    display: block;
+  }
+  .contact-section__part1 {
+    margin-bottom: 20px;
+  }
+  .contact-section__part2 {
+    margin-bottom: 20px;
+  }
+  .contact-section__part3 {
+    margin-bottom: 20px;
   }
 }
 
@@ -3292,6 +3380,32 @@ a:hover span {
   /*********** policy-privacy.html ***********/
   .privacy-section__title {
     font-size: 30px;
+  }
+  /*********** contact.html ***********/
+  .contact-section__iframe {
+    width: 300px;
+    height: 320px;
+  }
+  .contactform-section__input1 {
+    width: 320px;
+  }
+  .contactform-section__input2 {
+    width: 320px;
+  }
+  .contactform-section__input3 {
+    width: 320px;
+  }
+  .contactform-section__input4 {
+    width: 320px;
+  }
+  .contactform-section__textarea {
+    width: 320px;
+  }
+  .contactform-section__left {
+    padding: 30px 0 30px 0;
+  }
+  .contact-section__block1 {
+    margin-right: 0;
   }
 }
 
@@ -3513,6 +3627,38 @@ a:hover span {
   }
   .detailn-section__link {
     font-size: 20px;
+  }
+  /*********** contact.html ***********/
+  .contact-section__title {
+    font-size: 30px;
+  }
+  .contactform-section__title {
+    font-size: 30px;
+  }
+  .contact-section__text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .contactform-section__input1 {
+    width: 280px;
+  }
+  .contactform-section__input2 {
+    width: 280px;
+  }
+  .contactform-section__input3 {
+    width: 280px;
+  }
+  .contactform-section__input4 {
+    width: 280px;
+  }
+  .contactform-section__textarea {
+    width: 280px;
+  }
+  .contactform-section__btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 8px 16px;
   }
 }
 
