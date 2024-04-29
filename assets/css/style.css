@@ -2724,6 +2724,7 @@ a:hover span {
   line-height: 42px;
 }
 
+/*********** strategies (etc.) ***********/
 /*********** adaptives ***********/
 @media (max-width: 1750px) {
   .container {
