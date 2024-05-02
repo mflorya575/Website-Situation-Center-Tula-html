@@ -2457,6 +2457,35 @@ a:hover span {
   text-decoration: underline;
 }
 
+/*********** about-us.html ***********/
+.about-section {
+  min-height: 430px;
+  margin-bottom: 130px;
+}
+
+.about-section__title {
+  color: #1a120b;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 43px;
+}
+
+.about-section__text {
+  color: #1a120b;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 3%;
+  margin-right: 105px;
+}
+
+.about-section__wrapper {
+  display: flex;
+  align-items: center;
+}
+
 /*********** news.html ***********/
 .news-section {
   min-height: 730px;
