@@ -67,3 +67,17 @@ document.querySelector('.mobile-menu__button').addEventListener('click', functio
         menuBlock.style.display = 'none';
     }
 });
+
+
+/* Код обработки нажатия на кнопку диалогового окна на странице about-us.html */
+const openModal = document.querySelector('.aboutform-section__open-modal')
+const closeModal = document.querySelector('.aboutform-section__close-modal')
+const modal = document.querySelector('.aboutform-section__modal')
+
+openModal.addEventListener('click', () => {
+    modal.showModal()
+})
+
+closeModal.addEventListener('click', () => {
+    modal.close()
+})
